@@ -5,7 +5,7 @@ max_tasks = 0 # Максимальное количество задач
 
 while working_hours != 0:
 
-   tasks = int (input("Сколько задач решит Максим ?"))
+   tasks = int (input("Сколько задач решит Максим ? "))
    max_tasks += tasks
    working_hours -= 1
 
@@ -15,7 +15,7 @@ while working_hours != 0:
        the_bell = 1
 
    if working_hours == 0:
-       print("Конец Рабочего Дня !!! \nМаксим Решил задач ",max_tasks)
+       print("Рабочий день закончился. \nВсего выполнено задач: ",max_tasks)
        if the_bell == 1:
            print("Звонила Жена и попросила зайти в магазин.")
 
